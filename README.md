@@ -13,7 +13,7 @@ This repository contains a modular Terraform project for deploying AWS infrastru
 - Route53 DNS  
 - an ECS Fargate service  
 
-This project is designed as both a **learning repository** and a **foundation for future real-world projects**.
+This project is designed as both a **learning repository** and a **foundation for future projects**.
 
 ---
 
@@ -35,20 +35,9 @@ The infrastructure is split into reusable Terraform modules:
 
 ---
 
-## Why This Repo Exists
-
-This repository is intended to help with:
-
-- learning Terraform module design  
-- understanding AWS networking fundamentals  
-- deploying ECS Fargate services behind an ALB  
-- practicing infrastructure-as-code structure  
-- building a reusable baseline for future deployments  
-
----
-
 ## Project Structure
 
+```text
 terraform-aws-ecs-modular/
 ├── main.tf
 ├── variables.tf
@@ -59,10 +48,10 @@ terraform-aws-ecs-modular/
     ├── alb
     ├── ecs
     └── dns
-
+```
 ---
 
-## What This Deployment Creates
+## What This Configuration Creates
 
 ### Networking
 
@@ -113,11 +102,12 @@ Instead, it uses **VPC endpoints** for:
 
 ## How to Use
 
+```bash
 terraform init
 terraform plan
 terraform apply
 terraform destroy
-
+```
 ---
 
 ## Repository Purpose
