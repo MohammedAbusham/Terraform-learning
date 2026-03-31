@@ -1,6 +1,6 @@
 # Terraform AWS ECS Modular Infrastructure
 
-This repository contains a modular Terraform project for deploying AWS infrastructure with:
+This repository contains a modular Terraform project (production style) for deploying AWS infrastructure with:
 
 - a custom VPC  
 - 2 public subnets  
